@@ -50,7 +50,7 @@ function storeCityArray() {
     localStorage.setItem("cities", JSON.stringify(cityList));
     }
 
-// This function saves the currently display city to local storage
+
 function storeCurrentCity() {
 
     localStorage.setItem("currentCity", JSON.stringify(cityname));
@@ -124,7 +124,7 @@ async function displayWeather() {
             method: "GET"
         })
 
-        // getting UV Index info and setting color class according to value
+       
         var getUVIndex = uvResponse.value;
         var uvNumber = $("<span>");
         if (getUVIndex > 0 && getUVIndex <= 2.99){
