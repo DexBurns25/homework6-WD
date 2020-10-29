@@ -1,6 +1,15 @@
 # Homework6-WD
 
 
+MY URLS:
+
+
+https://github.com/DexBurns25/homework6-WD.git
+
+
+
+
+
 
 
 06 Server-Side APIs: Weather Dashboard
